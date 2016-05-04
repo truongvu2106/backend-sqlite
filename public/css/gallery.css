@@ -1,0 +1,28 @@
+.mn-gallery-img {
+	filter: gray; /* IE6-9 */
+	-webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+	-webkit-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+	margin-bottom:20px;
+}
+
+.mn-gallery-img:hover {
+	filter: none; /* IE6-9 */
+	-webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
+ 
+}
+
+.mn-modal-header {
+	height: 50px;
+}
+
+.mn-modal-dialog img {
+	width: 100%;
+	max-height: calc(100% - 150px);
+	transition:all 2s ease-in-out;
+}
+
+.mn-modal-footer {
+	padding: 10px 10px 10px;
+}

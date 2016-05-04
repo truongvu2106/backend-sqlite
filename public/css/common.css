@@ -1,0 +1,27 @@
+.absolute-position {
+	position: absolute;
+}
+.user-item .btn-group {
+	display: inline-block;
+	text-align: center;
+}
+
+.user-item .form-group {
+	display: inline-block;
+	width: 80%;
+	margin-bottom: 0;
+}
+
+.user-item .form-control {
+	display: inline-block;
+	width: 30%;
+}
+
+.add-user .form-control {
+	display: inline-block;
+	width: 25%;
+}
+
+#map {
+	height: 400px;
+}
