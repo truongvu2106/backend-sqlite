@@ -1,0 +1,77 @@
+[{
+	"url": "/user",
+	"method": "POST",
+	"fk_role_id": 1,
+	"permission": 1
+}, {
+	"url": "/user",
+	"method": "POST",
+	"fk_role_id": 2,
+	"permission": 1
+}, {
+	"url": "/user",
+	"method": "POST",
+	"fk_role_id": 3,
+	"permission": 0
+}, {
+	"url": "/user/%",
+	"method": "GET",
+	"fk_role_id": 1,
+	"permission": 1
+}, {
+	"url": "/user/%",
+	"method": "GET",
+	"fk_role_id": 2,
+	"permission": 1
+}, {
+	"url": "/user",
+	"method": "GET",
+	"fk_role_id": 1,
+	"permission": 1
+}, {
+	"url": "/user",
+	"method": "GET",
+	"fk_role_id": 2,
+	"permission": 1
+}, {
+	"url": "/user/%",
+	"method": "PUT",
+	"fk_role_id": 1,
+	"permission": 1
+}, {
+	"url": "/user/%",
+	"method": "PUT",
+	"fk_role_id": 2,
+	"permission": 1
+}, {
+	"url": "/user/%",
+	"method": "DELETE",
+	"fk_role_id": 1,
+	"permission": 1
+}, {
+	"url": "/user/%",
+	"method": "DELETE",
+	"fk_role_id": 2,
+	"permission": 1
+}, {
+	"url": "/user/login",
+	"method": "POST",
+	"fk_role_id": 1,
+	"permission": 1
+}, {
+	"url": "/user/login",
+	"method": "POST",
+	"fk_role_id": 2,
+	"permission": 1
+}, {
+	"url": "/user/logout",
+	"method": "POST",
+	"fk_role_id": 1,
+	"permission": 1
+}, {
+	"url": "/user/logout",
+	"method": "POST",
+	"fk_role_id": 2,
+	"permission": 1
+}
+]
